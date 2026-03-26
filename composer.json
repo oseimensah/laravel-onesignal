@@ -45,6 +45,6 @@
             "email": "maykonn@outlook.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
