@@ -93,7 +93,7 @@ class OneSignalClient
 
     private function createGuzzleHandler() {
         return tap(HandlerStack::create(new CurlHandler()), function (HandlerStack $handlerStack) {
-            $handlerStack->push(Middleware::retry(function ($retries, Psr7Request $request, Psr7Response $response = null, RequestException|ConnectException $exception = null) {
+            $handlerStack->push(Middleware::retry(function ($retries, Psr7Request $request, ?Psr7Response $response = null, RequestException|ConnectException|null $exception = null) {
                 if ($retries >= $this->maxRetries) {
                     return false;
                 }
