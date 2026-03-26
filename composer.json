@@ -1,22 +1,22 @@
 {
-    "name": "berkayk/onesignal-laravel",
+    "name": "oseimensah/onesignal-laravel",
     "description": "OneSignal Push Wrapper Laravel",
     "keywords": [
         "onesignal",
         "webpush",
         "push",
         "laravel",
-        "laravel 5"
+        "laravel 8"
     ],
     "type": "library",
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "^6.2|^7.4.1|^7.2",
-        "illuminate/support": "~5.5|~6.0|~7.0|~8.0|~9.0|^10.0|^11.0|^12.0",
-        "symfony/psr-http-message-bridge": "1.*|2.*|^7.0"
+        "guzzlehttp/guzzle": "^6.2|^7.4.1|^7.2|^7.10.0",
+        "illuminate/support": "~9.0|^10.0|^11.0|^12.0|^13.0",
+        "symfony/psr-http-message-bridge": "2.*|^7.0|^8.0.4"
     },
     "require-dev": {
-        "vlucas/phpdotenv": "^2.2|^5.5"
+        "vlucas/phpdotenv": "^5.5|^5.6.3"
     },
     "autoload": {
         "psr-4": {
